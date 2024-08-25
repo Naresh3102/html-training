@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* p {
+  color: red;
+} */
+
+/* .heading {
+  color: blue;
+} */
+
+/* #idHeading{
+    color: blueviolet;
+} */
+
+.container {
+  background-color: yellow;
+  height: 500px;
+  width: 600px;
+  background-image: url("img.png");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container h3 {
+  color: hsla(205, 100%, 50%, 0.643);
+}
+
+.container p {
+  color: red;
+}
