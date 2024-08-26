@@ -1,0 +1,190 @@
+html
+
+! - enter
+
+- head - 
+- body - 
+
+alt + shift + arrow(up or down) - copy
+ctrl + / - comment
+
+heading
+h1 - only one for a page
+
+para
+
+<br /> - self closing element (or) void - no content
+
+
+image- <img /> - void element
+src="" - image path, image link
+
+
+
+
+Heading
+
+Blog cover image
+Blog heading- highlight specific word
+optional - pre
+reference link
+Blog description
+
+Blog cover image
+Blog heading- highlight specific word
+reference link
+Blog description
+
+Blog cover image
+Blog heading- highlight specific word
+reference link
+Blog description
+
+
+Day 2
+
+table 
+
+tr - table row
+td - table data
+th - table header
+
+Attributes - colspan and rowspan
+
+thead - table head
+tbody - table body
+tfoot - table footer
+
+
+List - 2 types
+
+unordered list
+ordered list
+
+ul - unordered list
+list-style-type -> disc, circle, square, none
+
+ol - ordered list
+type attribute - 1, A, a, II, ii
+
+
+Block and inline elements
+
+Block - complete width of the page
+inline - same line
+
+
+div - container element
+
+
+Semantic Elements
+
+header - header is the top bar
+nav - navigation bar
+footer - footer bottom bar
+main - main content of the website
+section - specific part 
+article - content about a specific thing
+aside - side bar
+
+
+entities or symbols
+
+< - &lt;
+> - &gt;
+& - &amp;
+" - &quot;
+' - &apos;
+
+emoji - windows + .
+
+
+The <p> is known as paragraph
+
+
+Forms
+
+git init
+git add .
+git commit -m "message"
+git push origin main
+
+video
+source
+attributes - controls, autoplay
+
+audio
+source
+attributes - controls, autoplay
+
+
+Create a page with a heading video player. Add videos with heading and description for it. You can add additional header and footer for the page.
+
+
+HTML - structure
+CSS - styling -> color, layout, arrangement
+JavaScript - functionality
+
+
+ctrl + b
+
+CSS
+
+3 types
+
+Inline - rank 2 - 
+Internal - rank 3
+External - recommended - rank 1
+
+Universal selector - *
+Simple Selector - tag, class, id
+class - reuse -> .classname
+id - no reuse -> #idname
+
+Combinator Selector
+
+Pseudo Selector
+Attribute Selector
+
+
+color
+rgb - red, green, blue
+hex
+hsl - hue, saturation, lighting
+
+a - alpha
+
+Box Model
+
+Content
+Border
+Margin
+Padding
+
+top bottom left right
+
+border -  shorthand
+border-style
+border-width
+border-color
+
+Margin - element spacing
+Margin collapse
+
+
+
+
+
+Flex - layout
+
+
+position - static, fixed, sticky, relative, absolute
+top
+left
+right
+bottom
+
+
+a - link, visited, active
+
+
