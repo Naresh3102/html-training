@@ -228,3 +228,9 @@ Responsive layout
 
 media queries
 @media
+
+
+Grid layout
+
+flex - one direction
+grid - two directions both row and column
