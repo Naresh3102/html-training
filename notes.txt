@@ -187,4 +187,44 @@ bottom
 
 a - link, visited, active
 
+transition
+transition-property -> height, width,etc.,
+transition-duration -> s
+transition-timing-function
+transition-delay -> s
 
+timing functions
+
+linear - no variations
+ease - slow start, slow end, fast
+ease-in -> slow start
+ease-out -> slow end
+ease-in-out -> slow start, end
+
+
+Animations
+
+@keyframes name {
+0% {}
+10% {}
+100% {}
+}
+
+animation-name: demo;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-direction: reverse;
+
+Attribute selector
+input[type="text"]
+
+
+Specificity - important
+
+
+Responsive layout
+
+media queries
+@media

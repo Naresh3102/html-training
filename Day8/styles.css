@@ -1,0 +1,77 @@
+/* *{
+    margin: 0;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  transition: height 4s ease-out 2s, width 4s ease-out 2s;
+  animation-name: demo;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-direction: reverse;
+}
+
+input[type="text"]{
+    border-radius: 5px;
+    padding: 10px;
+} */
+
+/* div:hover{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+} */
+
+/* @keyframes demo {
+  0% {
+    background-color: aquamarine;
+    transform: rotate(90deg);
+  }
+
+  50% {
+    background-color: blue;
+    transform: rotate(180deg);
+  }
+
+  100% {
+    background-color: blueviolet;
+  }
+} */
+
+p {
+  font-size: larger;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+}
+
+@media (max-width: 600px) {
+  p {
+    font-size: medium;
+  }
+
+  div {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+  }
+}
+
+@media (max-width: 400px) {
+  p {
+    font-size: small;
+  }
+
+  div {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+  }
+}
