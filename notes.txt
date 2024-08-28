@@ -234,3 +234,6 @@ Grid layout
 
 flex - one direction
 grid - two directions both row and column
+
+grid-column-start : starting column number
+grid-column-end : ending plus 1
