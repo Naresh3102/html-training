@@ -237,3 +237,44 @@ grid - two directions both row and column
 
 grid-column-start : starting column number
 grid-column-end : ending plus 1
+
+
+JavaScript - js
+
+Two type
+
+Browser JS - V8 Engine - Runtime Environment
+Outside the Browser - NodeJS
+
+
+Keyword - Predefined names
+
+data types 
+
+string
+shortInt
+Number (or) Integer - 10, 10.5
+longint
+Boolean - true (or) false
+
+Variables - 
+
+var
+let
+const (constant)
+
+
+var - global scope
+let - block scope
+const - we can't change
+
+
+ECMAScript(ES) - JavaScript
+
+ES1- var
+ES2- var
+ES3 - var
+ES4 - var
+ES5 - var
+
+ES6 - let, const
