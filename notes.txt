@@ -252,10 +252,11 @@ Keyword - Predefined names
 data types 
 
 string
-shortInt
 Number (or) Integer - 10, 10.5
-longint
+longint (or) Bigint
 Boolean - true (or) false
+undefined - not initialized
+null - empty
 
 Variables - 
 
@@ -278,3 +279,61 @@ ES4 - var
 ES5 - var
 
 ES6 - let, const
+
+declaration
+initialization
+change
+
+
+Operators
+
+Arithmetic Operators
++ -> addition
+- -> Subtraction
+* -> multiplication
+/ -> division
+% -> modulus - remainder
+** -> power
+++ -> increment
+-- -> decrement
+
+Assignment Operators
+ = - value assign
++=
+-=
+*=
+/=
+%=
+**=
+
+Comparison Operators
+== -> equal value
+=== -> equal value and equal type
+!= -> not equal
+!== -> not equal value and type
+> -> greater than
+< -> less than
+>= 
+<=
+
+
+Logical Operators
+
+|| -> or
+
+true or true -> true
+false or true -> true
+true or false -> true
+false or false -> false
+
+&& -> and
+
+true and true -> true
+false and true -> false
+true and false -> false
+false and false -> false
+
+! ->not
+
+!true -> false
+!false -> true
