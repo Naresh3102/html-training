@@ -258,6 +258,10 @@ Boolean - true (or) false
 undefined - not initialized
 null - empty
 
+() - parantheses
+{} - curly bracket
+[] - square bracket
+
 Variables - 
 
 var
@@ -292,7 +296,7 @@ Arithmetic Operators
 - -> Subtraction
 * -> multiplication
 / -> division
-% -> modulus - remainder
+% -> modulus - remainder 
 ** -> power
 ++ -> increment
 -- -> decrement
@@ -337,3 +341,25 @@ false and false -> false
 
 !true -> false
 !false -> true
+
+Conditional Statements
+
+if - condition
+else if - condition
+.
+.
+else - no condition
+
+switch
+case
+
+string (or) number
+
+
+Ternary Operator
+condition ? true_block : false_block 
+
+
+Looping - repeated operation
+
+for loop
