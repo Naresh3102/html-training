@@ -363,3 +363,83 @@ condition ? true_block : false_block
 Looping - repeated operation
 
 for loop
+while loop - first check condition
+do-while loop - loop will execute first then condition
+
+template literal - `${variable_name}`
+
+String Methods
+
+Mutable - can change
+Immutable - can't change
+
+Primitive Data Types  - Created by language itself
+Non-Primitive Data Types - Created by some other developer
+
+Array and Object
+
+
+Primitive - stores in the variable
+Non-primitive - combines primitive
+
+
+Memory address - some place
+
+let numbers = address
+const numbers = address
+
+
+4 bytes
+const num = 12
+
+const numbers = [3, 7, 4, 11, 1]
+
+numbers = 200 address
+numbers = "anything"
+
+numbers[0] = 200 + (0 * 4 )
+numbers[1] = 200 + (1 * 4) = 204
+
+Static Array - Fixed Size
+Dynamic Array - No fixed size
+
+
+200,204,208,212,216 - 
+
+220,224,228,232 - dynamic array
+
+212 = "Naresh"
+
+push - last add
+unshift - first add
+
+pop - last remove
+shift - first remove
+
+
+
+for of - array
+for in - object
+
+Iterators
+forEach
+map
+filter
+
+reduce
+some
+every
+
+
+callback function - A function that is passed as a parameter to another function.
+
+filter
+
+1st loop -> 1 - false
+2nd loop -> 2 - true
+3rd loop -> 3 - false
+4th loop -> 4 - true
+5th loop -> 5 - false
+
+reduce
+
