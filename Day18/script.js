@@ -18,8 +18,7 @@
 const title = document.getElementById("title");
 const description = document.getElementById("description");
 
-const btn = document.querySelector('#changeButton')
-
+const btn = document.querySelector("#changeButton");
 
 const list = document.getElementById("list");
 const inputField = document.getElementById("textInput");
@@ -27,7 +26,7 @@ const addButton = document.getElementById("add");
 const imageElement = document.getElementById("imageElement");
 // const listItems = document.getElementsByClassName("list-item");
 // const listItems = document.getElementsByTagName('li')
-const listItems = document.querySelectorAll('.list-item')
+const listItems = document.querySelectorAll(".list-item");
 console.log(listItems);
 
 function change() {
@@ -43,7 +42,7 @@ function change() {
   );
 
   for (let i = 0; i < listItems.length; i++) {
-    listItems[i].textContent = i
+    listItems[i].textContent = i;
   }
 }
 
@@ -69,23 +68,39 @@ function removeFunc() {
 
 removeButton.addEventListener("click", removeFunc);
 
-function mouseOverFunc(){
-    title.style.backgroundColor = "black"
-    title.style.color = "white"
+function mouseOverFunc() {
+  title.style.backgroundColor = "black";
+  title.style.color = "white";
 }
 
-function mouseOutFunc(){
-    title.style.backgroundColor = "white"
-    title.style.color = "black"
+function mouseOutFunc() {
+  title.style.backgroundColor = "white";
+  title.style.color = "black";
 }
 
-title.addEventListener('mouseover', mouseOverFunc)
-title.addEventListener('mouseout', mouseOutFunc)
+title.addEventListener("mouseover", mouseOverFunc);
+title.addEventListener("mouseout", mouseOutFunc);
 
-const resultField = document.getElementById('result');
+const resultField = document.getElementById("result");
 
 function changeFunc() {
-    resultField.textContent = inputField.value
+  resultField.textContent = inputField.value;
 }
 
-inputField.addEventListener('input', changeFunc)
+inputField.addEventListener("input", changeFunc);
+
+const nameField = document.getElementById("firstName");
+
+function keyDownFunc(event) {
+  console.log(event);
+}
+
+function keyUpFunc() {
+  console.log("key up happened");
+}
+
+// Keydown will work in key press
+document.addEventListener("keydown", keyDownFunc);
+
+// keyup will work when key is released
+nameField.addEventListener("keyup", keyUpFunc)
