@@ -443,3 +443,28 @@ filter
 
 reduce
 
+
+
+DOM
+
+
+uses
+
+Change content - remove , add and alter
+Style change - add , remove and alter
+events - 
+
+
+id
+class
+name
+tagname
+
+
+text typing
+
+keydown
+keyup
+
+
+Jquery - JavaScript Library

@@ -96,7 +96,8 @@ console.log(newArr);
 const evenArr = arr.filter((num) => num%2 === 0)
 console.log(evenArr);
 
-const sum = arr.reduce((total, num) => total+num)
+// accumulator
+const sum = arr.reduce((total, num) => total + num)
 console.log(sum);
 
 // let arrSum = 0
