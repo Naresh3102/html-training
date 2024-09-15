@@ -49,6 +49,10 @@ class Person {
     return this.firstName;
   }
 
+  getPassword() {
+    return this.#password;
+  }
+
   introduce() {
     return `Hello, my name is ${this.firstName} and my location is ${this.city}`;
   }
@@ -69,6 +73,8 @@ Person.prototype.time = "time";
 const Person1 = new Person("Naresh", "Erode", "male", "Naresh@123");
 const Person2 = new Person("Akash", "Trichy");
 
+// console.log(Person1.getPassword());
+
 // console.log(Person1);
 // console.log(Person1.firstName);
 // console.log(Person1.city);
@@ -88,47 +94,120 @@ const Person2 = new Person("Akash", "Trichy");
 
 // Person1.login("Naresh", "Naresh@123")
 
+// class Animal {
+//   constructor(name) {
+//     this.name = name;
+//   }
+
+//   eat() {
+//     console.log(`${this.name} is eating.`);
+//   }
+
+//   introduce() {
+//     console.log(`I am ${this.name}.`);
+//   }
+
+//   speak() {
+//     console.log(`${this.name} is making some noise`);
+//   }
+// }
+
+// class Dog extends Animal {
+//   constructor(name, breed) {
+//     super(name);
+//     this.breed = breed;
+//   }
+
+//   // Over riding
+//   speak() {
+//     console.log(`${this.name} is barking`);
+//   }
+// }
+
+// class Mammal extends Animal {
+//   constructor(name) {
+//     super(name);
+//   }
+
+//   // Over riding
+//   speak() {
+//     console.log(`${this.name} is speaking`);
+//   }
+// }
+
+// class Human extends Mammal {
+//   constructor(name, education) {
+//     super(name)
+//     this.education = education;
+//   }
+// }
+
+// const naresh = new Human("Naresh", "degree");
+// const tommy = new Dog("Tommy", "Rott willer");
+// naresh.eat();
+// naresh.speak();
+// tommy.eat();
+// tommy.speak();
+
+// console.log(tommy);
+
+const CanFly = {
+  fly() {
+    console.log("Flying");
+  },
+};
+
+const CanSwim = {
+  swim() {
+    console.log("Swimming");
+  },
+};
+
 class Animal {
-  constructor(name) {
-    this.name = name;
-  }
-
   eat() {
-    console.log(`${this.name} is eating.`);
-  }
-
-  introduce() {
-    console.log(`I am ${this.name}.`);
+    console.log("Eating");
   }
 }
 
-class Dog extends Animal {
-  constructor(name, breed) {
-    super(name);
-    this.breed = breed;
-  }
-
-  bark() {
-    console.log(`${this.name} is barking`);
-  }
-}
-
-class Human extends Animal {
-  constructor(name, education) {
-    super(name);
-    this.education = education;
-  }
-
+class Duck extends Animal {
   speak() {
-    console.log(`${this.name} is speaking`);
+    console.log("Quack");
   }
 }
 
-const naresh = new Human("Naresh", "degree")
-const tommy = new Dog("Tommy", "Rott willer")
-naresh.eat()
-naresh.speak()
-tommy.eat()
-tommy.bark()
+Object.assign(Duck.prototype, CanFly, CanSwim);
 
-console.log(tommy);
+const duck = new Duck();
+
+// console.log(duck);
+
+// duck.eat()
+// duck.speak()
+
+class Calculator {
+  add(a, b, c) {
+    if (arguments.length === 2) {
+      return a + b;
+    } else if (arguments.length === 3) {
+      return a + b + c;
+    } else {
+      return "Invalid arguments"
+    }
+  }
+}
+
+const calc = new Calculator()
+
+console.log(calc.add(5, 15));
+console.log(calc.add(5, 15, 20));
+console.log(calc.add(5, 15, 20, 25));
+
+
+const arr = [1,23,4]
+
+console.log(arr);
+console.log(arr.length);
+
+let str = "Naresh"
+
+console.log(str);

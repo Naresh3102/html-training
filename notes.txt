@@ -467,4 +467,35 @@ keydown
 keyup
 
 
-Jquery - JavaScript Library
+jQuery - JavaScript Library
+
+
+OOP -  Object Oriented Programming
+
+Class and Object (Instance)
+Inheritance
+Encapsulation
+Abstraction
+Polymorphism - Multiple forms
+
+
+Old way - Prototype - Old Syntax - Legacy
+New way - Prototype - New Syntax - Syntactic Sugar
+
+
+Getter and Setter
+getter - for getting value of a field
+setter - for giving a value to a property
+
+Method Overriding - rewrite the existing method
+
+Inheritance Types
+
+Single Inheritance - A child class Inherit from one parent class
+Multiple Inheritance - A child class inherit from multiple parent class (Mostly not supported)
+Multilevel Inheritance - A child class inherit from a parent class that is inherited from another class
+hierarchical Inheritance - Multiple child class from a single parent
+Hybrid Inheritance - Combining other types
+
+Method Overloading - 
+Methods having same name but different signature
