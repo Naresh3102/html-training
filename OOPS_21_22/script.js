@@ -191,23 +191,62 @@ class Calculator {
     } else if (arguments.length === 3) {
       return a + b + c;
     } else {
-      return "Invalid arguments"
+      return "Invalid arguments";
     }
   }
 }
 
-const calc = new Calculator()
+// const calc = new Calculator()
 
-console.log(calc.add(5, 15));
-console.log(calc.add(5, 15, 20));
-console.log(calc.add(5, 15, 20, 25));
+// console.log(calc.add(5, 15));
+// console.log(calc.add(5, 15, 20));
+// console.log(calc.add(5, 15, 20, 25));
 
+// const arr = [1,23,4]
 
-const arr = [1,23,4]
+// console.log(arr);
+// console.log(arr.length);
 
-console.log(arr);
-console.log(arr.length);
+// let str = "Naresh"
 
-let str = "Naresh"
+// console.log(str);
 
-console.log(str);
+// const timeoutID = setTimeout(() => {
+//   console.log("Inside Timeout function");
+// }, 5000);
+
+// console.log(timeoutID);
+// clearTimeout(timeoutID)
+
+// const intervalId = setInterval(() => {
+//   console.log("inside interval");
+// }, 3000);
+
+// console.log(intervalId);
+
+// setTimeout(() => {
+//   clearInterval(intervalId);
+// }, 10000);
+
+// try {
+//   console.log(firstName);
+// } catch(err) {
+//   if(err.name === "ReferenceError") {
+//     console.log("Some variable is not defined");
+//   }
+// }
+
+// console.log("Hello");
+
+function outer() {
+  let firstname = "Naresh";
+
+  function inner() {
+    console.log("inner function " + firstname);
+  }
+  return inner;
+}
+
+const inner = outer();
+
+inner();
