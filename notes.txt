@@ -499,3 +499,65 @@ Hybrid Inheritance - Combining other types
 
 Method Overloading - 
 Methods having same name but different signature
+
+Timer 
+Error Handling 
+async/await 
+Asynchronous
+
+browser - time -> MS(milliseconds)
+1h = 60 * 60 * 60 = 3600 Seconds = 3600 * 1000 = 3600000
+1s = 1000
+
+Date.now()
+30 S
+pause - Date.now()
+cleartimeout()
+
+30 - 10 = 20
+
+resume = Date.now()
+setTimeout(20)
+
+
+pause = Date.now()
+cleartimeout()
+
+20 - 10 = 10
+
+resume = Date.now()
+setTimeout(10)
+
+
+Closure - Inner function have access to the variables of the outer function. Even the outer function is destroyed(finished execution).
+
+Hoisting
+Currying function
+Async/await
+
+
+console.log(myVar);
+var myVar = 10;
+console.log(myVar);
+
+
+var myVar;
+console.log(myVar);
+myVar = 10;
+console.log(myVar);
+
+
+Blocking - code stop
+
+
+
+
+
+
+
+
+
+
+Bootstrap - css
+
+

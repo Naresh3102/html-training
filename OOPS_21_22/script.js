@@ -1,3 +1,5 @@
+// demo()
+
 // const arr = [1, 3, 7, 0, 5];
 
 // let max = 0;
@@ -238,15 +240,77 @@ class Calculator {
 
 // console.log("Hello");
 
-function outer() {
-  let firstname = "Naresh";
 
-  function inner() {
-    console.log("inner function " + firstname);
-  }
-  return inner;
+// Closure
+// function outer() {
+//   let firstname = "Naresh";
+
+//   function inner() {
+//     console.log("inner function " + firstname);
+//   }
+//   return inner;
+// }
+
+// const inner = outer();
+
+// inner();
+
+
+// Hoisting
+
+// console.log(myVar);
+
+// var myVar = 10;
+
+// console.log(myVar);
+
+// let myVar;
+// // TDZ - Temporal Dead Zone
+// console.log(myVar);
+ 
+// myVar = 10
+
+// console.log(myVar);
+
+// // console.log(num);
+
+// const num = 100
+
+
+// function demo() {
+//   console.log("Inside demo");
+// }
+
+// Currying function
+
+// function multiply(a) {
+//   return function(b) {
+//     return function(c) {
+//       return a * b * c;
+//     }
+//   }
+// }
+
+// const func1 = multiply(2)
+// const func2 = func1(3)
+// const result = func2(4)
+
+// const ans = multiply(2)(3)(4)
+
+// console.log(result);
+// console.log(ans);
+
+// Async/await
+
+// async function fetchData() {
+//   const response = await fetch('https://jsonplaceholder.typicode.com/posts')
+//   console.log(response);
+// }
+
+const fetchData = async () => {
+  const response = await fetch('https://jsonplaceholder.typicode.com/posts');
+  const data = await response.json()
+  console.log(data);
 }
 
-const inner = outer();
-
-inner();
+fetchData()
